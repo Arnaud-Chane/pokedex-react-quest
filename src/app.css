@@ -1,6 +1,5 @@
-.pkm-cards-ctn>figure{
+#root {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
