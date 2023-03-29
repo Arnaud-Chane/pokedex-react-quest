@@ -1,10 +1,14 @@
 import React from 'react'
-import PokemonCards from './components/PokemonCards/PokemonCards'
 import './app.css'
+import PokemonCards from './components/PokemonCards/PokemonCards'
+import Avatar from './components/Avatar/Avatar'
+
 
 const App = () => {
   return(
-    <PokemonCards />
+    <div className="App">
+      <PokemonCards />
+    </div>
   )
 }
 
